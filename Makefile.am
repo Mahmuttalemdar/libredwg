@@ -34,7 +34,8 @@ BUILT_SOURCES = $(top_srcdir)/.version
 EXTRA_DIST = $(top_srcdir)/.version \
              README README-alpha \
 	     dxf_example.lsp dxf_example.sh test-dxf.sh logs.sh unknown.sh \
-	     build-aux/swig_python.patch
+	     build-aux/swig_python.patch \
+             jsmn/jsmn.c jsmn/jsmn.h jsmn/LICENSE jsmn/README.md
 
 .PHONY: check-dwg check-dxf check-dwg-valgrind \
         regen-man man manual refman refman-pdf scan-build gcov unknown
